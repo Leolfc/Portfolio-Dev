@@ -12,6 +12,7 @@ main{
  flex-direction: column;
  text-align: center;
  align-items: center;
+ margin: 8px 64px;
 
 }
 
@@ -39,4 +40,5 @@ main{
     object-fit: cover;
 
   }
+
 }
