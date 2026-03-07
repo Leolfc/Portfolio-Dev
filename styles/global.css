@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root{
+  --text-color: #E2E4E9;
+  --background-links: #292C34;
+  --red: #E3646E;
+  --purple:#BB72E9
+  --blue:#3996DB
+  --green:#82BC4F
+  --yellow:#EABD5F
+}
