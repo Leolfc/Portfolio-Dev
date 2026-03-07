@@ -4,6 +4,7 @@ header{
   justify-content: center;
   align-items: center;
   padding-block: 120px;
+  text-align: center;
 
   img{
     width: 100px; 
