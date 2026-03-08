@@ -2,8 +2,14 @@
 
 body{
   background: url("../assets/Background_Intro.jpg");
-  background-size: cover;
+  background-size: contain;
+width: 100vw;
+  background-repeat: no-repeat;
   color: var(--text-color);
+  background-color: var(--gray-400);
+ 
+
+
 }
 
 
@@ -15,6 +21,12 @@ main{
  width: 80%;
  margin:8px auto;
 
+ 
+p{
+  font-size: var(--text-sm);
+  color:var(--gray-300)
+
+}
 }
 
 .links{
@@ -42,4 +54,14 @@ main{
 
   }
 
+}
+.destaques{
+
+margin: 100px 56px;
+}
+.projects{
+  gap: 24px;
+  border-radius: 8px;
+  flex-flow: row wrap;
+  padding-block: 20px;
 }

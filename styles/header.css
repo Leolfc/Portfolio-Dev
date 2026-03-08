@@ -13,7 +13,17 @@ header{
     background-size: cover;
     object-fit: cover;
     margin-bottom: 64px;
-
   }
+  h1{
+    font-family: var(--font-family);
+    
+  }
+  p{
+    font-size: var(--subtitle);
+  }
+ 
 }
 
+ strong{
+    color:var(--red)
+  }
