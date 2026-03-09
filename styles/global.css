@@ -6,7 +6,7 @@
 }
 
 :root{
-  --font-family:"Asap", sans-serif;
+  --font-family: "Asap",sans-serif;
   --font-family-subtitle:"Inconsolata", monospace;
   --text-font-family:"Maven Pro", sans-serif;
   --title-lg: 56px/120% bold var(--font-family);
@@ -29,10 +29,36 @@
   --gray-500:#16181D;
   --gray-600:#0D0E11;;
 }
+body{
+  background: url("../assets/Background_Intro.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: var(--text-color);
+  background-color: black;
+ 
+}
 
-.container{
-  display:flex;
-flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+h3{
+  color:var(--gray-200);
+  font-family: var(--font-family);
+  font-size: var(--title-sm);
+ 
+}
+.projects{
+  background-color: var(--gray-400);
+width:330px;
+height:280px;
+gap:20px;
+padding:12px 12px;
+  border-radius:10px;
+  
+
+img{
+  border-radius:10px;
+}
+}
+
+p{
+  color: var(--gray-300);
 }

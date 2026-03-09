@@ -1,18 +1,4 @@
 
-
-body{
-  background: url("../assets/Background_Intro.jpg");
-  background-size: contain;
-width: 100vw;
-  background-repeat: no-repeat;
-  color: var(--text-color);
-  background-color: var(--gray-400);
- 
-
-
-}
-
-
 main{
  display: flex;
  flex-direction: column;
@@ -35,6 +21,7 @@ p{
   margin-top: 80px;
   flex-flow: row wrap;
   gap: 12px;
+
   
   a{
     display: flex;
@@ -43,6 +30,7 @@ p{
     border: none;
     padding:8px;
     border-radius: 16px;
+  
     width: 114px;
     height: 40px;
     color: var(--text-color);
@@ -59,9 +47,4 @@ p{
 
 margin: 100px 56px;
 }
-.projects{
-  gap: 24px;
-  border-radius: 8px;
-  flex-flow: row wrap;
-  padding-block: 20px;
-}
+
