@@ -4,7 +4,6 @@ main{
  flex-direction: column;
  text-align: center;
  align-items: center;
- width: 80%;
  margin:8px auto;
 
  
@@ -18,7 +17,7 @@ p{
 .links{
   display: flex;
   justify-content: space-evenly;
-  margin-top: 80px;
+  margin: 80px 94px;
   flex-flow: row wrap;
   gap: 12px;
 
@@ -43,8 +42,23 @@ p{
   }
 
 }
-.destaques{
 
-margin: 100px 56px;
+@media screen and (max-width:650px){
+  .links{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
-
+.destaques{
+display:flex;
+align-items:center;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+margin: 72px 56px;
+}
+@media screen and (max-width:650px) {
+.destaques{
+  display: inline-block;
+}
+}

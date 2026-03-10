@@ -30,14 +30,11 @@
   --gray-600:#0D0E11;;
 }
 body{
-  background: url("../assets/Background_Intro.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
+
   color: var(--text-color);
-  background-color: black;
+    background-color: #16181D;
  
 }
-
 
 h3{
   color:var(--gray-200);
@@ -45,20 +42,9 @@ h3{
   font-size: var(--title-sm);
  
 }
-.projects{
-  background-color: var(--gray-400);
-width:330px;
-height:280px;
-gap:20px;
-padding:12px 12px;
-  border-radius:10px;
-  
 
-img{
-  border-radius:10px;
-}
-}
 
 p{
   color: var(--gray-300);
+  text-align: justify;
 }
