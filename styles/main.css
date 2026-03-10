@@ -57,8 +57,4 @@ justify-content: center;
 text-align: center;
 margin: 72px 56px;
 }
-@media screen and (max-width:650px) {
-.destaques{
-  display: inline-block;
-}
-}
+

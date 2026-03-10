@@ -10,7 +10,7 @@ max-width:100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
+   object-fit: cover;
   padding:180px 120px;
 
   img{
