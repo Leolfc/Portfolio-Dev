@@ -48,3 +48,8 @@ p{
   color: var(--gray-300);
   text-align: justify;
 }
+
+img{
+    max-width:100%;
+    height:auto;
+  }

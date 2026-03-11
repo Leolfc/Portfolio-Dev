@@ -54,6 +54,7 @@ grid-template-columns:repeat(3, 1fr);
    align-items: center;
    font-size: 1.2rem;
   }
+  
   h3{
     font-size: 1.4rem;
   }
@@ -72,6 +73,7 @@ grid-template-columns:repeat(3, 1fr);
 }
   .section-services {
     display: flex;
+    align-items:center;
     flex-direction: column;
     margin: 0 auto;
     
